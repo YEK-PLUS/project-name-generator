@@ -16,13 +16,14 @@ def choice():
     print("\t\t\t"),
     type = raw_input();
     print("\n")
-    print("\t\t\t"),
+
     a = True
     while a == True:
 
         try:
             time.sleep(0.1)
             print("\n")
+            print("\t\t\t"),
             for types in type:
                 sys.stdout.write(choiceChar(True if types == "v" else False)),
                 pass
